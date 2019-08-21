@@ -1,7 +1,7 @@
 # Sorting-files-with-size
 ### Python - This python code is written to sort the files based on size and print 5 number of files which is larger in size. 
 ### I have used module argparse and created switches like "-l" for location and "-f" for file format. 
-### By default this code will print the files larger in size from the current working directory. 
+### By default this code will print 5 files with larger in size from the current working directory of any file format. 
 ### I have configured the switches so that you can specify the location and also the file format. 
 
 ```python
@@ -78,8 +78,13 @@ for x in sorted(result.items(),key=getfilesize,reverse=True)[:5]:
 
 
 - arjunm@ubuntu:~$ python3 finalcode.py -l /home/arjunm/Downloads/ -f txt
+
 -('/home/arjunm/Downloads/serverload.txt', 11812)
+
 -('/home/arjunm/Downloads/Downloads/Non ho potuto resistere e passare!.txt', 11619)
+
 -('/home/arjunm/Downloads/Downloads/cooperazione con una compagnia internazionale.txt', 5195)
+
 -('/home/arjunm/Downloads/Downloads/Volevano manichini di denaro.txt', 4410)
+
 -('/home/arjunm/Downloads/Downloads/Interview task list.txt', 1555)
