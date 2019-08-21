@@ -74,7 +74,7 @@ for x in sorted(result.items(),key=getfilesize,reverse=True)[:5]:
     print(x)
 ```
 
-## The output of the code wll looks like as follows
+## The output of the code will look like as follows
 
 
 - arjunm@ubuntu:~$ python3 finalcode.py -l /home/arjunm/Downloads/ -f txt
