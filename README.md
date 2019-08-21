@@ -76,6 +76,7 @@ for x in sorted(result.items(),key=getfilesize,reverse=True)[:5]:
 
 ## The output of the code wll looks like as follows
 
+
 - arjunm@ubuntu:~$ python3 finalcode.py -l /home/arjunm/Downloads/ -f txt
 -('/home/arjunm/Downloads/serverload.txt', 11812)
 -('/home/arjunm/Downloads/Downloads/Non ho potuto resistere e passare!.txt', 11619)
